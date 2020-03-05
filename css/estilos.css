@@ -1,0 +1,134 @@
+/*Estilos generales-----------------------*/
+.col{
+    padding:0px !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*----------------------------------------*/
+/*Estilos de la cabecera------------------*/
+header .row{
+    margin-bottom: 0px !important;
+}
+#Titulo{
+    margin:0px;
+    background-color: #F2EAE4;
+    color:#73605C;
+}
+#Titulo #ContLogo{
+    height: 100%;
+    text-align: center;
+}
+#Titulo #ContContacto{
+    padding: 40px;
+    height: 100%;
+    text-align: left;
+    font-size: 20px;
+}
+
+#Titulo #ContContacto #contacto li {
+    padding-bottom: 20px;
+}
+#Titulo #ContContacto #contacto li {
+    vertical-align: middle;
+}
+#Logo{
+    width: 110px;
+}
+
+#Menu{
+    text-align: center;
+    padding:0px;
+    height:60px;
+    background-color: #1F4373;
+    color:#F2EAE4;
+    line-height: 30px;
+}
+#Menu ul{
+    height: 100%;
+    margin:0px;
+    overflow: hidden;
+    line-height: 55px;
+}
+#Menu ul li{
+    display: inline-block;
+    height: 100%;
+    margin-right: 30px;
+    margin-left:30px;
+}
+
+#Menu ul li a{
+    height: 100%;
+    padding: 30px 30px;
+    color:#F2EAE4;
+}
+
+#Menu ul li a:hover{
+    background-color: rgb(18, 38, 65);
+}
+
+@media(max-width:400px)
+{
+    #Menu{
+        height: 200px;
+    }
+
+    #Menu ul li{
+        display: block;
+        height: 33%;
+    }
+
+    #Menu ul li a{
+        display:block;
+        height: 100%;
+        color:#F2EAE4;
+        width: 100%;
+        padding:0px
+    }
+    
+    #Menu ul li a:hover{
+        background-color: rgb(18, 38, 65);
+    }
+
+    #Titulo #ContContacto #contacto {
+        text-align: center;
+    }
+
+    .post{
+        padding: 15px;
+        height: 900px !important;
+        text-align: justify;
+    }
+    
+}
+/*----------------------------------------*/
+/*Efectos del contenido-------------------*/
+.post{
+    padding: 15px;
+    height: 500px;
+}
+
+.post .row {
+    padding:10px;
+}
+.post .row .texto{
+    padding-right: 10px !important;
+}
+.post img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#post1{
+    background-color: #73605C;
+    color: #F2EAE4;
+}
+#post2{
+    background: url("../img/imagen21.jfif");
+    background-size: cover;
+    background-attachment: fixed;
+    color:#F2EAE4;
+}
+#post3{
+}
+/*----------------------------------------*/
