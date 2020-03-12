@@ -4,7 +4,9 @@
 }
 html{
     scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
 }
+
 /*----------------------------------------*/
 /*Estilos de la cabecera------------------*/
 header .row{
@@ -96,7 +98,6 @@ header .row{
 
     .post{
         padding: 15px;
-        height: 900px !important;
         text-align: justify;
     }
     
@@ -105,7 +106,6 @@ header .row{
 /*Efectos del contenido-------------------*/
 .post{
     padding: 15px;
-    height: 500px;
 }
 
 .post .row {
@@ -118,6 +118,11 @@ header .row{
     display: block;
     height: 100%;
     width: 100%;
+    margin-top: 10%;
+}
+.post p{
+    font-size: 22px;
+    line-height: 30px;
 }
 #post1{
     background-color: #73605C;
@@ -130,5 +135,25 @@ header .row{
     color:#F2EAE4;
 }
 #post3{
+}
+/*----------------------------------------*/
+/*Estilos del footer----------------------*/
+Footer{
+    display: block;
+    
+}
+#Footer{
+    display: block;
+    margin-bottom: 0px !important;
+    height: 60px;
+    background: #1F4373;
+    color:#F2EAE4;
+    padding:10px !important; 
+}
+
+#Footer #IrInicio a{
+    color:#F2EAE4;
+    float:right;
+    padding-right: 10px;
 }
 /*----------------------------------------*/
