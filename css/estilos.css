@@ -125,8 +125,14 @@ header .row{
     line-height: 30px;
 }
 #post1{
-    background-color: #73605C;
-    color: #F2EAE4;
+    background-color: #FAF9F0;
+    color: black;
+}
+#post1 h1{
+    float: right;
+}
+#post1 img{
+    margin-top: 10px !important;
 }
 #post2{
     background: url("../img/imagen21.jfif");
@@ -135,6 +141,8 @@ header .row{
     color:#F2EAE4;
 }
 #post3{
+    background:#73605C;
+    color:#FAF9F0;
 }
 /*----------------------------------------*/
 /*Estilos del footer----------------------*/
