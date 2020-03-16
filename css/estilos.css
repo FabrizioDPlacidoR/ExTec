@@ -101,6 +101,21 @@ header .row{
         text-align: justify;
     }
     
+    .Servicio{
+        display: block;
+        text-align: center;
+        font-size: 26px;
+        height: inherit !important;
+    }
+    
+    .ImgServicios{
+        display: block ;
+        margin: 0 auto;
+        width:700px !important;
+        height: 50% !important;
+    }
+
+    
 }
 /*----------------------------------------*/
 /*Efectos del contenido-------------------*/
@@ -139,6 +154,20 @@ header .row{
     background-size: cover;
     background-attachment: fixed;
     color:#F2EAE4;
+    text-align: center;
+}
+
+.Servicio{
+    text-align: center;
+    font-size: 26px;
+    height: 200px;
+}
+
+.ImgServicios{
+    display: block ;
+    margin: 0 auto;
+    width:100px !important;
+    height: 50% !important;
 }
 #post3{
     background:#73605C;
