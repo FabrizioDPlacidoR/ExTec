@@ -12,45 +12,46 @@ html{
 header .row{
     margin-bottom: 0px !important;
 }
+
+#Cabecera{
+    height:170px;
+    padding-bottom: 0px !important;
+}
 #Titulo{
     margin:0px;
-    background-color: #F2EAE4;
-    color:#73605C;
-}
-#Titulo #ContLogo{
+    background-color: #1F4373;
     height: 100%;
-    text-align: center;
+    
 }
-#Titulo #ContContacto{
-    padding: 40px;
-    height: 100%;
-    text-align: left;
-    font-size: 20px;
-}
-
-#Titulo #ContContacto #contacto li {
-    padding-bottom: 20px;
-}
-#Titulo #ContContacto #contacto li {
-    vertical-align: middle;
-}
-#Logo{
-    width: 110px;
+#Titulo img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
 }
 
 #Menu{
+    display: block;
     text-align: center;
-    padding:0px;
-    height:60px;
+    height: 100%;
+    padding-bottom:10px;
     background-color: #1F4373;
     color:#F2EAE4;
-    line-height: 30px;
+    font-size: 30px;
 }
+#Menu #Espacio
+{
+    display: block;
+    height: 60px;
+}
+
 #Menu ul{
     height: 100%;
     margin:0px;
     overflow: hidden;
     line-height: 55px;
+    
+    padding-left:26%;
 }
 #Menu ul li{
     display: inline-block;
@@ -63,16 +64,23 @@ header .row{
     height: 100%;
     padding: 30px 30px;
     color:#F2EAE4;
+    transition: all 0.2s;
 }
 
 #Menu ul li a:hover{
-    background-color: rgb(18, 38, 65);
+   color: #37BAA4;
 }
 
 @media(max-width:400px)
 {
+    #Titulo{
+        height: 260px;
+    }
+    #Menu #Espacio{
+        height: 10px;
+    }
     #Menu{
-        height: 200px;
+        height: 250px;
     }
 
     #Menu ul li{
@@ -88,9 +96,6 @@ header .row{
         padding:0px
     }
     
-    #Menu ul li a:hover{
-        background-color: rgb(18, 38, 65);
-    }
 
     #Titulo #ContContacto #contacto {
         text-align: center;
