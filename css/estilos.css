@@ -82,7 +82,9 @@ header .row{
     #Menu{
         height: 250px;
     }
-
+    #Menu ul{
+        padding-left: 2%;
+    }
     #Menu ul li{
         display: block;
         height: 33%;
@@ -120,6 +122,19 @@ header .row{
         height: 50% !important;
     }
 
+    #post3 h1{
+        font-size: 48px;
+        text-align: center;
+    }
+    #post3 h4{
+        font-size: 24px;
+        text-align: center;
+    }
+    #post3 img{
+        margin-top: 30px !important;
+        width: 70%;
+        margin:0 auto;
+    }
     
 }
 /*----------------------------------------*/
@@ -155,7 +170,7 @@ header .row{
     margin-top: 10px !important;
 }
 #post2{
-    background: url("../img/imagen21.jfif");
+    background: url("../img/post2.jfif");
     background-size: cover;
     background-attachment: fixed;
     color:#F2EAE4;
@@ -175,9 +190,20 @@ header .row{
     height: 50% !important;
 }
 #post3{
-    background:#73605C;
-    color:#FAF9F0;
+    background:#FAF9F0;
+    color:black;
 }
+#post3 img{
+    margin-top: -10px;
+    width: 70%;
+}
+#post3 .row{
+    padding-top: 50px;
+}
+#post3 h1{
+    color:#37BAA4;
+}
+
 /*----------------------------------------*/
 /*Estilos del footer----------------------*/
 Footer{
