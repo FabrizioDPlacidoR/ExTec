@@ -199,6 +199,7 @@ header .row{
 }
 #post3 .row{
     padding-top: 50px;
+    margin-bottom: 5%;
 }
 #post3 h1{
     color:#37BAA4;
@@ -208,19 +209,18 @@ header .row{
 /*Estilos del footer----------------------*/
 Footer{
     display: block;
-    
+    font-size: 22px;
 }
 #Footer{
     display: block;
     margin-bottom: 0px !important;
-    height: 60px;
-    background: #1F4373;
+    background: black;
     color:#F2EAE4;
     padding:10px !important; 
 }
 
 #Footer #IrInicio a{
-    color:#F2EAE4;
+    color:#37BAA4;
     float:right;
     padding-right: 10px;
 }
